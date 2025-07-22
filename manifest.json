@@ -17,6 +17,7 @@
         "*://*.leetcode.com/*",
         "*://*.hackerrank.com/*",
         "*://chatgpt.com/*",
+        "*://youtube.com/*",
         "*://*.geeksforgeeks.org/*"
       ],
       "js": ["content.js"]
