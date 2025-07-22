@@ -4,7 +4,7 @@ let startTime = null;
 function handleTabChange(tab) {
   if (!tab || !tab.url) return;
 
-  const studySites = ["leetcode.com", "hackerrank.com", "chat.openai.com", "geeksforgeeks.org"];
+  const studySites = ["leetcode.com", "hackerrank.com", "chat.openai.com", "youtube.com", "geeksforgeeks.org"];
   const isStudySite = studySites.some(site => tab.url.includes(site));
 
   console.log("[Study Tracker] Tab changed:", tab.url, "→ Is study site?", isStudySite);
