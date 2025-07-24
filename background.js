@@ -26,7 +26,7 @@ function logTime() {
     try {
       site = new URL(activeTab).hostname;
     } catch (err) {
-      console.error("Invalid URL for activeTab:", activeTab);
+      console.error("Invalid URL for activeTabs:", activeTab);
       site = "unknown";
     }
 
